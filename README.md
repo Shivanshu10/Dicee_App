@@ -1,2 +1,2 @@
 # Dicee 🎲
-Xylophone app implemented by me while learning flutter
+Dice app implemented by me while learning flutter
