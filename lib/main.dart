@@ -61,41 +61,4 @@ class _DicePageState extends State<DicePage> {
     );
   }
 }
-/*
-class DicePage extends StatelessWidget {
-  var leftDiceNumber = 1, rightDiceNumber=1;
 
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Padding(
-              padding: EdgeInsets.all(16.0), 
-              child: GestureDetector(
-                onTap: () => {
-                  print('Left Dice Tapped'),
-                },
-                child: Image.asset('images/dice$leftDiceNumber.png'),
-              ),
-            ),
-          ),
-          Expanded(
-            child: Padding(
-              padding: EdgeInsets.all(16.0),
-              child: GestureDetector(
-                onTap: () => {
-                  print('Right Dice Tapped'),
-                },
-                child:Image.asset('images/dice$rightDiceNumber.png'),
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-*/
